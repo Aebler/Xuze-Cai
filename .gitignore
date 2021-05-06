@@ -1,0 +1,8 @@
+.ccls
+.vscode
+*.o
+*.elf
+*.bin
+*.map
+*.d
+

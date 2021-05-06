@@ -1,0 +1,14 @@
+@startuml
+
+[*] --> Default
+
+Default --> Menu : input: *
+Menu --> Default : input: *
+Menu --> Set_scale : input: 1
+Set_scale --> Menu : input: *
+Set_scale --> Menu : input: #
+Set_offset --> Menu : input: *
+Set_offset --> Menu : input: #
+Menu --> Set_offset : input: 2
+
+@enduml
